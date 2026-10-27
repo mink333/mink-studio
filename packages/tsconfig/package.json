@@ -1,0 +1,15 @@
+{
+  "name": "@workspace/tsconfig",
+  "version": "0.0.1",
+  "private": true,
+  "files": [
+    "base.json",
+    "node.json",
+    "next.json"
+  ],
+  "exports": {
+    "./base.json": "./base.json",
+    "./node.json": "./node.json",
+    "./next.json": "./next.json"
+  }
+}
